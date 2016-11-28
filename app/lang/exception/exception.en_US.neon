@@ -1,0 +1,7 @@
+youHaveNoPermissionsToReleaseArticles: "You have no permissions to release articles"
+articleDoesntExist: "This article doesn't exist"
+youHaveNoPermissionsToCreateCategories: "You have no permissions to create categories"
+articleCategoryDoesntExist: "This category doesn't exist"
+youFilledBadNameOrPassword: "You filled a bad name or password"
+userDoesntExist: "This user doesn't exist"
+youHaveNoPermissionsToEditCategory: "You have no permissions to edit category"

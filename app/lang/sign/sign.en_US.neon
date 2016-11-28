@@ -1,0 +1,9 @@
+youWereSignedUp: "You were signed up"
+youWereLoggedIn: "You were logged in"
+
+up:
+	header: "Registration"
+	nameMayContainLetters: "User name may contain these characters"
+
+in:
+	header: "Login"

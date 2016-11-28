@@ -1,0 +1,34 @@
+articleWasReleased: "Article was released"
+articleWasSentToBeReleased: "Article was sent to be released"
+articleWasEdited: "Article was edited"
+commentWasAdded: "Comment was added"
+thereAreNoArticleCategories: "There are no categories, you cannot add an article"
+articleDoesntExist: "This article doesn't exist"
+editArticle: "Edit article"
+addComment: "Add comment"
+forAddingCommentLogIn: "To add comment, you have to be logged in"
+noComments: "There are no comments for this article"
+comments: "Comments"
+
+create:
+	header: "Add article"
+
+new:
+	header: "List of no released articles"
+	noArticles: "There are no new articles"
+
+myArticles:
+	header: "My articles"
+	youHaveNoArticles: "You have no articles created"
+	released: "Released"
+	view: "View"
+
+detailAdmin:
+	released: "Released"
+	release: "Release article"
+
+detail:
+	header: "Article detail"
+
+edit:
+	header: "Edit article"

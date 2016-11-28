@@ -1,0 +1,33 @@
+{block content}
+<h2>{_user.profile.header}</h2>
+{ifset $searchedUser}
+	{capture $roleText}
+		{if $searchedUser->isAdmin()}
+			{_common.admin}
+		{else}
+			{_common.user}
+		{/if}
+	{/capture}
+
+	<table class="infoTable userProfile">
+		<tr>
+			<th>{_common.userName}</th>
+			<td>{$searchedUser->name}</td>
+		</tr>
+		<tr>
+			<th>{_common.email}</th>
+			<td>{$searchedUser->email}</td>
+		</tr>
+		<tr>
+			<th>{_common.role}</th>
+			<td>{$roleText}</td>
+		</tr>
+	</table>
+
+	{if $userEntity->isAdmin()}
+    	<br /><br />
+    	<a n:href="User:edit $searchedUser->id">{_common.editUser}</a>
+    {/if}
+{else}
+	{_user.userDoesntExist}
+{/ifset}

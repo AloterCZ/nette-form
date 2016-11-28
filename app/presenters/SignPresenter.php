@@ -2,46 +2,60 @@
 
 namespace App\Presenters;
 
-use Nette;
-use App\Forms;
+use App\Forms\SignFormFactory;
+use Nette\Application\UI\Form;
 
-
+/**
+ * Presenter pro registraci uživatelů.
+ * @package App\Presenters
+ */
 class SignPresenter extends BasePresenter
 {
-	/** @var Forms\SignInFormFactory @inject */
-	public $signInFactory;
-
-	/** @var Forms\SignUpFormFactory @inject */
-	public $signUpFactory;
-
+	/**
+	 * @var SignFormFactory Továrnička pro tvorbu registračního formuláře.
+	 * @inject
+	 */
+	public $formFactory;
 
 	/**
-	 * Sign-in form factory.
-	 * @return Nette\Application\UI\Form
+	 * Přesměruje uživatele na domovskou stránku, pokud je již přihlášen a pokusí se přejít na přihlašovací stránku.
 	 */
-	protected function createComponentSignInForm()
+	public function actionIn()
 	{
-		return $this->signInFactory->create(function () {
-			$this->redirect('Homepage:');
-		});
+		if ($this->getUser()->isLoggedIn()) $this->redirect("Homepage:default");
 	}
 
-
 	/**
-	 * Sign-up form factory.
-	 * @return Nette\Application\UI\Form
+	 * Vytváří a vrací komponentu registračního formuláře.
+	 * @return Form komponenta registračního formuláře
 	 */
 	protected function createComponentSignUpForm()
 	{
-		return $this->signUpFactory->create(function () {
-			$this->redirect('Homepage:');
-		});
+		$form = $this->formFactory->createSignUp();
+		$form->onSuccess[] = function (Form $form) {
+			$p = $form->getPresenter();
+			$p->flashMessage($this->translator->translate("sign.youWereSignedUp"));
+			$p->redirect("this");
+		};
+		return $form;
 	}
 
-
-	public function actionOut()
+	/**
+	 * Vytváří a vrací komponentu přihlašovacího formuláře.
+	 * @return Form komponenta přihlašovacího formuláře
+	 */
+	protected function createComponentSignInForm()
 	{
-		$this->getUser()->logout();
+		$form = $this->formFactory->createSignIn();
+		$form->onSuccess[] = function (Form $form) {
+			$p = $form->getPresenter();
+			$p->flashMessage($this->translator->translate("sign.youWereLoggedIn"));
+			$p->redirect("this");
+		};
+
+		return $form;
 	}
 
+
+       
 }

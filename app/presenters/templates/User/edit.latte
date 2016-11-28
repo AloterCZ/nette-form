@@ -1,0 +1,7 @@
+{block content}
+<h2>{_user.edit.header}</h2>
+{ifset $searchedUser}
+	{control editUserForm}
+{else}
+	{_user.userDoesntExist}
+{/ifset}

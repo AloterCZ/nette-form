@@ -1,0 +1,95 @@
+articleCategory:
+	create:
+		name: "Název"
+		nameNotFilled: "Nezadal jsi název"
+		create: "Vytvořit kategorii"
+		categoryWithThisNameAlreadyExists: "Kategorie s tímto názvem již existuje"
+		description: "Popis"
+		descriptionNotFilled: "Nebyl vyplněn popis"
+
+	edit:
+		name: "Název"
+		nameNotFilled: "Nezadal jsi název"
+		create: "Vytvořit kategorii"
+		categoryWithThisNameAlreadyExists: "Kategorie s tímto názvem již existuje"
+		description: "Popis"
+		descriptionNotFilled: "Nebyl vyplněn popis"
+		edit: "Upravit kategorii"
+		
+article:
+	create:
+		title: "Titulek"
+		titleNotFilled: "Nezadal jsi titulek"
+		titleMayHaveMaxLetters: "Titulek smí obsahovat maximálně %d znaků"
+		category: "Kategorie"
+		content: "Obsah"
+		contentNotFilled: "Nevyplnil jsi obsah"
+		create: "Odeslat ke schválení"
+		articleWithThisNameAlreadyExists: "Článek s tímto titulkem již existuje"
+	
+	edit:
+		title: "Titulek"
+		titleNotFilled: "Nezadal jsi titulek"
+		titleMayHaveMaxLetters: "Titulek smí obsahovat maximálně %d znaků"
+		category: "Kategorie"
+		content: "Obsah"
+		contentNotFilled: "Nevyplnil jsi obsah"
+		edit: "Editovat článek"
+		articleWithThisNameAlreadyExists: "Článek s tímto titulkem již existuje"
+	
+	addComment:
+		content: "Obsah"
+		contentNotFilled: "Nevyplnil jsi obsah"
+		add: "Přidat komentář"
+
+sign:
+	up:
+		name: "Jméno"
+		nameNotFilled: "Nezadal jsi jméno"
+		nameMayHaveMaxLetters: "Jméno musí obsahovat maximálně %d znaků"
+		password: "Heslo"
+		passwordNotFilled: "Nezadal jsi heslo"
+		email: "E-mail"
+		emailNotFilled: "Nezadal jsi e-mail"
+		emailBadFormat: "E-mail je ve špatném formátu"
+		signUp: "Zaregistrovat se"
+		userWithThisNameAlreadyExists: "Uživatel s tímto jménem již existuje"
+	
+	in:
+		name: "Jméno"
+		nameNotFilled: "Nezadal jsi jméno"
+		password: "Heslo"
+		passwordNotFilled: "Nezadal jsi heslo"
+		remember: "Pamatovat si přihlášení"
+		signIn: "Přihlásit se"
+
+user:
+	add:
+		name: "Jméno"
+		nameNotFilled: "Nezadal jsi jméno"
+		nameMayHaveMaxLetters: "Jméno musí obsahovat maximálně %d znaků"
+		password: "Heslo"
+		passwordNotFiled: "Nezadal jsi heslo"
+		email: "E-mail"
+		emailNotFilled: "Nezadal jsi e-mail"
+		emailBadFormat: "E-mail je ve špatném formátu"
+		admin: "Admin"
+		add: "Přidat uživatele"
+		userWithThisNameAlreadyExists: "Uživatel s tímto jménem již existuje"
+	
+	edit:
+		name: "Jméno"
+		nameNotFilled: "Nezadal jsi jméno"
+		nameMayHaveMaxLetters: "Jméno musí obsahovat maximálně %d znaků"
+		password: "Heslo"
+		passwordNotFiled: "Nezadal jsi heslo"
+		email: "E-mail"
+		emailNotFilled: "Nezadal jsi e-mail"
+		emailBadFormat: "E-mail je ve špatném formátu"
+		admin: "Admin"
+		edit: "Editovat uživatele"
+	
+	settings:
+		description: "Popis"
+		descriptionMayHaveMaxLetters: "Popis smí mít maximálně %d znaků"
+		update: "Upravit nastavení"

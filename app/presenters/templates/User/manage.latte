@@ -1,0 +1,24 @@
+{block content}
+<h2>{_user.manage.header}</h2>
+<a n:href="User:add">{_user.addUser}</a>
+<h3>{_user.list}</h3>
+<table class="infoTable">
+	<tr>
+		<th width="150">{_common.user}</th>
+		<th width="150">{_common.role}</th>
+	</tr>
+	{foreach $users as $userDb}
+		{capture $roleText}
+			{if $userDb->isAdmin()}
+				{_common.admin}
+			{else}
+				{_common.user}
+			{/if}
+		{/capture}
+
+		<tr>
+			<td><a n:href="User:profile $userDb->id">{$userDb->name}</a></td>
+			<td>{$userDb->role}</td>
+		</tr>
+	{/foreach}
+</table>

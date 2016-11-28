@@ -1,0 +1,34 @@
+articleWasReleased: "Článek byl schválen"
+articleWasSentToBeReleased: "Článek byl odeslán ke schválení"
+articleWasEdited: "Článek byl editován"
+commentWasAdded: "Komentář byl přidán"
+thereAreNoArticleCategories: "Nejsou žádné vytvořené kategorie, nelze přidávat články"
+articleDoesntExist: "Takový článek neexistuje"
+editArticle: "Upravit článek"
+addComment: "Napsat komentář"
+forAddingCommentLogIn: "Pro přidání komentáře se musíš přihlásit"
+noComments: "Ke článku nejsou napsané žádné komentáře"
+comments: "Komentáře"
+
+create:
+	header: "Přidat článek"
+
+new:
+	header: "Seznam neschválených článků"
+	noArticles: "Nejsou žádné odeslané články"
+
+myArticles:
+	header: "Mé články"
+	youHaveNoArticles: "Nemáš žádné vytvořené články"
+	released: "Schválen"
+	view: "Zobrazit"
+
+detailAdmin:
+	released: "Schválen"
+	release: "Schválit článek"
+
+detail:
+	header: "Detail článku"
+
+edit:
+	header: "Upravit článek"

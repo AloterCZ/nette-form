@@ -1,0 +1,25 @@
+userWasAdded: "Uživatel byl přidán"
+userWasEdited: "Uživatel byl editován"
+addUser: "Přidat uživatele"
+list: "Seznam uživatelů"
+userHasNoDescription: "Uživatel nemá žádný popis"
+settingsWereUpdated: "Nastavení bylo upraveno"
+userDoesntExist: "Takový uživatel neexistuje"
+
+manage:
+	header: "Správa uživatelů"
+
+add:
+	header: "Přidat uživatele"
+
+edit:
+	header: "Upravit uživatele"
+
+profile:
+	header: "Profil uživatele"
+
+settings:
+	header: "Nastavení účtu"
+
+form:
+        header: "Formulář"

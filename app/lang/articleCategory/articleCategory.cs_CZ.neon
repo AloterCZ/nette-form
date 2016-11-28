@@ -1,0 +1,25 @@
+categoryWasDeleted: "Kategorie byla smazána"
+categoryWasCreated: "Kategorie byla vytvořena"
+categoryWasEdited: "Kategorie byla upravena"
+categoriesList: "Seznam kategorií"
+noCategories: "Nejsou žádné vytvořené kategorie"
+articlesCount: "Počet článků"
+addCategory: "Vytvořit kategorii"
+categoryDoesntExist: "Taková kategorie neexistuje"
+articles: "Články v této kategorii"
+noArticles: "V této kategorii nejsou žádné články"
+
+manage:
+	header: "Správa kategorií"
+
+create:
+	header: "Přidat kategorii"
+
+edit:
+	header: "Upravit kategorii"
+
+list:
+	header: "Přehled kategorií"
+
+detail:
+	header: "Detail kategorie"

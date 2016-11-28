@@ -1,0 +1,9 @@
+youWereSignedUp: "Byl jsi úspěšně zaregistrován"
+youWereLoggedIn: "Byl jsi úspěšně přihlášen"
+
+up:
+	header: "Registrace"
+	nameMayContainLetters: "Jméno smí obsahovat tyto znaky"
+
+in:
+	header: "Přihlášení"

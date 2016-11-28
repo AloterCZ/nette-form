@@ -1,0 +1,95 @@
+articleCategory:
+	create:
+		name: "Name"
+		nameNotFilled: "Name was not filled"
+		create: "Create category"
+		categoryWithThisNameAlreadyExists: "Category with this name already exists"
+		description: "Description"
+		descriptionNotFilled: "Description was not filled"
+
+	edit:
+		name: "Name"
+		nameNotFilled: "Name was not filled"
+		create: "Create category"
+		categoryWithThisNameAlreadyExists: "Category with this name already exists"
+		description: "Description"
+		descriptionNotFilled: "Description was not filled"
+		edit: "Edit category"
+		
+article:
+	create:
+		title: "Title"
+		titleNotFilled: "Title was not filled"
+		titleMayHaveMaxLetters: "Title may contain maximally %d letters"
+		category: "Category"
+		content: "Content"
+		contentNotFilled: "Content was not filled"
+		create: "Add article"
+		articleWithThisNameAlreadyExists: "Article with this title already exists"
+	
+	edit:
+		title: "Title"
+		titleNotFilled: "Title was not filled"
+		titleMayHaveMaxLetters: "Title may contain maximally %d letters"
+		category: "Category"
+		content: "Content"
+		contentNotFilled: "Content was not filled"
+		edit: "Edit article"
+		articleWithThisNameAlreadyExists: "Article with this title already exists"
+	
+	addComment:
+		content: "Content"
+		contentNotFilled: "Content was not filled"
+		add: "Add comment"
+
+sign:
+	up:
+		name: "User name"
+		nameNotFilled: "User name was not filled"
+		nameMayHaveMaxLetters: "User name may contain maximally %d characters"
+		password: "Password"
+		passwordNotFilled: "Password was not filled"
+		email: "E-mail"
+		emailNotFilled: "E-mail was not filled"
+		emailBadFormat: "E-mail has a bad format"
+		signUp: "Sign up"
+		userWithThisNameAlreadyExists: "User with this name already exists"
+	
+	in:
+		name: "User name"
+		nameNotFilled: "User name was not filled"
+		password: "Password"
+		passwordNotFilled: "Password was not filled"
+		remember: "Keep me logged in"
+		signIn: "Log in"
+
+user:
+	add:
+		name: "User name"
+		nameNotFilled: "User name was not filled"
+		nameMayHaveMaxLetters: "User name may contain maximally %d letters"
+		password: "Password"
+		passwordNotFiled: "Password was not filled"
+		email: "E-mail"
+		emailNotFilled: "E-mail was not filled"
+		emailBadFormat: "E-mail has a bad format"
+		admin: "Admin"
+		add: "Add user"
+		userWithThisNameAlreadyExists: "User with this name already exists"
+	
+	edit:
+		name: "User name"
+		nameNotFilled: "User name was not filled"
+		nameMayHaveMaxLetters: "User name may contain maximally %d letters"
+		password: "Password"
+		passwordNotFiled: "Password was not filled"
+		email: "E-mail"
+		emailNotFilled: "E-mail was not filled"
+		emailBadFormat: "E-mail has a bad format"
+		admin: "Admin"
+		edit: "Editovat uživatele"
+	
+	settings:
+		description: "Description"
+		descriptionMayHaveMaxLetters: "Description may contain maximally %d characters"
+		update: "Update settings"

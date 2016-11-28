@@ -1,0 +1,22 @@
+userWasAdded: "User was added"
+userWasEdited: "User was edited"
+addUser: "Add user"
+list: "Users list"
+userHasNoDescription: "User has no description"
+settingsWereUpdated: "Settings were updated"
+userDoesntExist: "This user doesn't exist"
+
+manage:
+	header: "Users manage"
+
+add:
+	header: "Add user"
+
+edit:
+	header: "Edit user"
+
+profile:
+	header: "User profile"
+
+settings:
+	header: "Account settings"

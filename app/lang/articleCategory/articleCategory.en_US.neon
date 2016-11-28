@@ -1,0 +1,25 @@
+categoryWasDeleted: "Category was deleted"
+categoryWasCreated: "Category was created"
+categoryWasEdited: "Category was edited"
+categoriesList: "List of categories"
+noCategories: "There are no categories created"
+articlesCount: "Number of articles"
+addCategory: "Create category"
+categoryDoesntExist: "This category doesn't exist"
+articles: "Articles in this category"
+noArticles: "There are no articles in this category"
+
+manage:
+	header: "Categories manage"
+
+create:
+	header: "Add category"
+
+edit:
+	header: "Edit category"
+
+list:
+	header: "Categories overview"
+
+detail:
+	header: "Category detail"
