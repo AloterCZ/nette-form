@@ -10,13 +10,13 @@
 <p>2. Zprovoznit xampp, netbeans--------DONE #Windows10</p>
 <p>3. Pořídit reference</p>
 #3. udělat to
-<p>1. Vytvořit formulář------68%</p>
-<p>2. vytvořit databasi</p>
-<p>3. Přihlašovaní</p>
+<p>1. Vytvořit formulář------76%</p>
+<p>2. vytvořit databasi------DONE</p>
+<p>3. Přihlašovaní-------98%</p>
 <p>4. Odesilaní e-mail</p>
-<p>5. CSS</p>
-
-
+<p>5. CSS------2%</p>
+<br><br>
+<p>app version 0.8.3</p>
 
 
 
